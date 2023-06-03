@@ -1,0 +1,179 @@
+body {
+    overflow-x: hidden;
+}
+
+.offer-text {
+    background-color: #149f39;
+    height: 34px;
+    width: 184px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.first-text {
+    font-size: 74px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.first-sub-txt {
+    font-size: 17px;
+}
+
+.ourmenu-txt {
+    background-color: #149f39;
+    height: 34px;
+    width: 110px;
+    padding-top: 5px;
+}
+.explore-text{
+    margin-top: 116px;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "I1 I1 I2 I3"
+        "I1 I1 I2 I7"
+        "I4 I5 I6 I7";
+   
+
+}
+
+.gridimage {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.item1 {
+    grid-area: I1;
+}
+
+.item2 {
+    grid-area: I2;
+}
+
+.item3 {
+    grid-area: I3;
+}
+
+.item4 {
+    grid-area: I4;
+}
+
+.item5 {
+    grid-area: I5;
+}
+
+.item6 {
+    grid-area: I6;
+}
+
+.item7 {
+    grid-area: I7;
+}
+.item1:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.26s;
+}
+.item2:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.26s;
+}
+.item3:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.26s;
+}
+.item4:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.26s;
+}
+.item5:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.26s;
+}
+.item6:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.26s;
+}
+.item7:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.26s;
+}
+.section1:hover{
+    box-shadow: 4px 4px #14ae3d;
+}
+footer{
+    background-color: rgb(255, 234, 208);
+}
+.our-menu-div{
+    padding-top: 150px;
+}
+.menu-div{
+    padding-bottom: 80px;
+}
+.footer-div{
+    padding-top: 40px;
+}
+footer h1{
+    color: rgb(104, 103, 103);
+    font-weight: bold;
+    font-size: 22px;
+}
+footer a {
+    color: black;
+    text-align: justify;
+  
+}
+.bg-div:hover {
+    box-shadow: 0 0px 7px 0px rgba(0, 0, 0, 0.25);
+}
+.discount-sub{
+    margin-left: 69px;
+    margin-top: -21px;
+}
+.bg-div{
+    position: relative;
+    top: 21px;
+}
+.fresh-sub{
+    margin-left: 69px;
+    margin-top: -21px;
+}
+.bg-div-2{
+    position: relative;
+    top: 21px;
+}
+.delivery-sub{
+    margin-left: 69px;
+    margin-top: -21px;
+}
+.bg-div-3{
+    position: relative;
+    top: 21px;
+}
+.discount-img{
+   position: relative;
+   top: 22px;
+
+}
+.fresh-img{
+    position: relative;
+    top: 22px; 
+}
+.delivery-img{
+    position: relative;
+    top: 22px;
+ 
+}
+.menu-icon{
+    color: black;
+   
+}
