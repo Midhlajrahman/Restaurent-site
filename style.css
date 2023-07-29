@@ -175,11 +175,22 @@ footer a {
     color: black;
    
 }
+.btn:hover{
+ background-color: bisque !important;
+ border: none;
+}
 @media(max-width:991px){
 
     .f-image{
         width: 300px;
         height: 300px;
        
+    }
+    .explore-text{
+        width: 240px !important;
+    }
+    .img-fluid{
+        position: relative;
+        bottom: 25px;
     }
 }
